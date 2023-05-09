@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "rust-std-candidates",
+    "License": "MIT",
+    "License File": "LICENSE",
+    "Version Number": "0.1.10",
+    "Owner": "xuelei3@huawei.com",
+    "Upstream URL": "https://github.com/SimonSapin/rust-std-candidates",
+    "Description": "a collection of candidates for rust std library. 
+    matches: A macro to evaluate, as a boolean, whether an expression matches a pattern.
+    mod_path: A work-around for Rust bug #18810.
+    ref_filter_map: Like `std::cell::{Ref,RefMut}::map`, but for optional components.
+    return_if_ok: A macro that returns a `Result` as-is if it’s `Ok(_)`
+    show: A `show!` debugging macro to print expressions with the Show formatting trait, without writing out `"{}", ` in the `println!` macro
+    text_writer: Depreacted. Use `std::fmt::Write` instead.
+    triable: Extends the `try!` macro to types other than `std::result::Result` by introducing a `Triable` trait.
+    zip-longest: Take two iterators and yield pairs until both are exhausted."
+  }
+]
